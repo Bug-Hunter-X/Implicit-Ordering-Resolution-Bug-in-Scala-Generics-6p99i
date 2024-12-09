@@ -1,0 +1,3 @@
+# Implicit Ordering Resolution Bug in Scala Generics
+
+This example demonstrates a common issue encountered when using implicit parameters in Scala, particularly when generics and type classes like `Ordering` are involved.  The code compiles and runs correctly for `Int`, but fails for `String` due to the implicit resolution mechanism. The solution shows how to explicitly provide the necessary implicit instance.
